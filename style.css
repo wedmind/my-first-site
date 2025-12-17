@@ -1,0 +1,40 @@
+/* style.css */
+button {
+	background-color: #ff4d4d; /* Jollof Red */
+	color: white:
+	border: none;
+	padding: 12px 25px
+	font-size: 16px;
+	border-radius: 30px; /* Makes it rounded */
+	cursor: pointer;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1)
+	transition: 0.3s
+}
+button:hover {
+	background-color: #e60000
+	transform: translatey(-2px); /* Makes it pop up slightly */
+body {
+    background-color: #f8f9fa; /* A cleaner light gray */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers everything horizontally */
+    justify-content: center; /* Centers everything vertically */
+    min-height: 100vh; /* Ensures the body takes up the full screen height */
+    margin: 0;
+}
+}
+
+h1 {
+	color: darkred;
+	text-align: center
+}
+p {
+	font-size: 1.1em;
+	padding: 10px;
+}
+ul {
+	color: navy;
+	border: 2px solid navy;
+	list-style-type: square;
+	padding: 15px;
