@@ -1,4 +1,14 @@
 /* style.css */
+body {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
 button {
 	background-color: #ff4d4d; /* Jollof Red */
 	color: white:
@@ -38,5 +48,6 @@ ul {
 	border: 2px solid navy;
 	list-style-type: square;
 	padding: 15px;
+
 
 
